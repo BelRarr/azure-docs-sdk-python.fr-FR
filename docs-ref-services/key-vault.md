@@ -61,7 +61,7 @@ json_key = key_bundle.key
 
 De même, vous pouvez utiliser l’extrait de code suivant pour récupérer un secret à partir du coffre :
 
-```
+```python
 from azure.keyvault import KeyVaultClient, KeyVaultAuthentication
 from azure.common.credentials import ServicePrincipalCredentials
 
@@ -84,8 +84,8 @@ secret_bundle = client.get_secret("https://VAULT_ID.vault.azure.net/", "SECRET_I
 print(secret_bundle.value)
 ```
 
-[!div class="nextstepaction"]
-[Explorer les API clientes](/python/api/overview/azure/keyvault/client)
+> [!div class="nextstepaction"]
+> [Explorer les API clientes](/python/api/overview/azure/keyvault/client)
 
 ### <a name="management-api"></a>API de gestion
 
